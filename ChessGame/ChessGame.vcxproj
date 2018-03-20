@@ -147,11 +147,37 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Bishop.h" />
+    <ClInclude Include="ChessBoard.h" />
+    <ClInclude Include="ChessConsole.h" />
+    <ClInclude Include="ChessGraphics.h" />
+    <ClInclude Include="King.h" />
+    <ClInclude Include="Knight.h" />
+    <ClInclude Include="Pawn.h" />
+    <ClInclude Include="Pieces.h" />
+    <ClInclude Include="Queen.h" />
+    <ClInclude Include="Rook.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Bishop.cpp" />
+    <ClCompile Include="ChessBoard.ChessBoard.cpp" />
+    <ClCompile Include="ChessBoard.GetPiece.cpp" />
+    <ClCompile Include="ChessBoard.~ChessBoard.cpp" />
+    <ClCompile Include="ChessConsole.ChessConsole.cpp" />
+    <ClCompile Include="ChessConsole.Run.cpp" />
     <ClCompile Include="ChessGame.cpp" />
+    <ClCompile Include="ChessGraphics.ChessGraphics.cpp" />
+    <ClCompile Include="ChessGraphics.Render.cpp" />
+    <ClCompile Include="ChessGraphics.Tochar.cpp" />
+    <ClCompile Include="King.cpp" />
+    <ClCompile Include="Knight.cpp" />
+    <ClCompile Include="Pawn.cpp" />
+    <ClCompile Include="Pieces.Move.cpp" />
+    <ClCompile Include="Pieces.Pieces.cpp" />
+    <ClCompile Include="Queen.cpp" />
+    <ClCompile Include="Rook.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
